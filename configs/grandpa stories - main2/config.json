@@ -1,0 +1,23 @@
+{
+    "project_link": "https://claude.ai/project/0197f9e5-8f04-760a-b46d-a119cd82b133",
+    "text_to_be_replaced_by_video_number": "#VIDEONUMBER",
+    "initial_prompt": "Create a video outline for Video #VIDEONUMBER. Ensure the chat name is named after the Video #that I just input. Here is the format \"Video #x : Video Title Here\". Reference the project guide to find out many chapters this video should contain. Reference the GENERATION 1 text file in the project knowledge for which video title to work on. (1 = Video 1. 2 = Video 2.) For example, if the title is \"Video Outline:\" make it \"Video #x Outline.\" Remember, do NOT generate the video outline as an artifact",
+    "generation_prompts": [
+        "Create a Chapter 1 in a new artifact. Remember all following Chapters should be generated as an Artifact. Before doing so, quickly remind yourself of the requirements from the json in the Project Knowledge and remember to ask for permission to continue to the next Chapter. Ok now review the requirements quickly. Also remember this, if a Chapter is not complete, complete it within the same artifact before moving onto the next chapter. Also remember the file formatting requirements.",
+        "Create a 5,000 character Chapter 2 now within a new artifact.",
+        "Create a 5,000 character Chapter 3 now within a new artifact.",
+        "Create a 5,000 character Chapter 4 now within a new artifact.",
+        "Create a 5,000 character Chapter 5 now within a new artifact.",
+        "Create a 5,000 character Chapter 6 now within a new artifact.",
+        "Create a 5,000 character Chapter 7 now within a new artifact.",
+        "Create a 5,000 character Chapter 8 now within a new artifact.",
+        "Create a 5,000 character Chapter 9 now within a new artifact.",
+        "Create a 5,000 character Chapter 10 now within a new artifact.",
+        "Create a 5,000 character Chapter 11 now within a new artifact.",
+        "Create a 5,000 character Chapter 12 now within a new artifact.",
+        "Check for missing chapters. Print \"Done\" when done checking.",
+        "If there are no missing chapters, print \"Done.\" If there are missing chapters, generate the missing chapters."
+    ],
+    "headless_mode": true,
+    "close_browser_on_crash": true
+}
